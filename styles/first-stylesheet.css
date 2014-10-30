@@ -1,0 +1,57 @@
+/* Stylesheet for assignment 3 */
+
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+    font-size: 200%;
+}
+
+body {
+    background-color: black;
+}
+
+p, h1, h2 {
+    color: white;
+}
+
+p.indent {
+    text-indent: 50px;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;    
+}
+
+img:hover {
+    opacity: 0.4;
+
+}
+
+img {
+    margin: 3em;
+}
+
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
