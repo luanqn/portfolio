@@ -1,0 +1,27 @@
+* {margin: 0;
+   padding: 0;}
+
+.light-green { background-color: blue;
+        width: 4rem;
+        height: 4rem;}
+
+.light-blue { background-color: red;
+        width: 4rem;
+        height: 4rem;}
+
+.light-dark-blue { background-color: orange;
+        width: 4rem;
+        height: 4rem;}
+
+.light-orange { background-color: green;
+        width: 4rem;
+        height: 4rem;}
+
+.no-color { background-color: pink;
+        width: 4rem;
+        height: 4rem;}
+
+.light-grey { background-color: purple;
+        width: 4rem;
+        height: 4rem;}
+

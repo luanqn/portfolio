@@ -1,0 +1,53 @@
+/*div {margin: 2rem;}
+
+
+p {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.blue {
+
+}
+
+.big {
+    font-size: 5rem;
+}
+
+.red {
+        position: relative;
+    top: 2rem;
+    right: 2rem;
+}
+
+.orange {
+
+}
+
+
+    
+.pink {}
+.purple {}
+.black {}
+.yellow {}
+*/
+
+
+.light-green {
+    width: 100%;}
+
+.container {
+    height: 20rem;
+}
+
+.red {
+    width: 30%; 
+    min-height: 100%; 
+    float: left;}
+
+.orange {
+    float: right; 
+    width: 70%;
+    min-height: 100%;}
+
+.green {width: 100%; clear: both;}
+

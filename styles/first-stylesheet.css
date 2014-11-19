@@ -1,57 +1,76 @@
 /* Stylesheet for assignment 3 */
 
 header {
-    text-align: center;
+  text-align: center;
+}
+
+.blink {
+  font-size: 28px;
 }
 
 nav {
-    text-align: right;
-    font-size: 200%;
+  float: left;
+  font-size: 200%;
+}
+
+.clear-float {
+    clear: both;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
-p, h1, h2 {
-    color: white;
+
+p, h1, h2, .custom {
+  color: white;
 }
 
 p.indent {
-    text-indent: 50px;
+  text-indent: 50px;
+  font-family: 'Lato', sans-serif;
 }
 
 ul {
-    color: white;
-    list-style-type: none;
-    padding: 5px;
-    margin: 5px;    
+  color: white;
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;    
 }
 
 img:hover {
-    opacity: 0.4;
+  opacity: 0.4;
 
 }
 
 img {
-    margin: 3em;
+  margin: 3em;
+}
+
+.list-project, .blink {
+  font-family: 'Lato', sans-serif;
+}
+
+.set-pos {
+  position: relative;
+  left: 5rem;
 }
 
 a:link {
-    color: #FF0000;
+    color: white;
 }
 
 /* visited link */
 a:visited {
-    color: #00FF00;
+    color: white;
 }
 
 /* mouse over link */
 a:hover {
-    color: #FF00FF;
+    color: white;
 }
 
 /* selected link */
 a:active {
-    color: #0000FF;
+    color: white;
 }
